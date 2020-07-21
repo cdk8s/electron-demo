@@ -1,0 +1,24 @@
+{
+  "name": "jeemoo-gitee",
+  "version": "1.0.0",
+  "description": "积木网",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "9.1.1",
+    "electron-builder": "21.2.0",
+    "electron-rebuild": "^1.11.0"
+  }
+}
