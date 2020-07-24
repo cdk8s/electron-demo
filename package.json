@@ -14,13 +14,16 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "CDK8S",
+  "license": "GUN",
   "build": {
     "productName": "jeemoo-gitee",
     "appId": "com.jeemoo.gitee",
+    "asar": true,
+    "compression": "normal",
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
     "directories": {
-      "output": "build"
+      "output": "./build"
     },
     "dmg": {
       "contents": [
@@ -45,6 +48,11 @@
       "target": [
         "nsis"
       ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
     },
     "linux": {
       "icon": "build/icons"
